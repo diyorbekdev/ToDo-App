@@ -1,0 +1,29 @@
+@import url(./todo.css);
+@import url(./menu.css);
+@import url(./login.css);
+@import url(./docs.css);
+@import url(./loader.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
+body {
+  background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+  width: 100%;
+  font-family: "Itim", cursive;
+}
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  display: none;
+}
+
+.template {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}

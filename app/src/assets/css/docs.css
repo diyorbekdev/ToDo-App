@@ -1,0 +1,20 @@
+.docs {
+  width: 100%;
+  border: 1px solid;
+}
+
+.docs ol {
+  padding: 0px 5%;
+}
+
+.docs ol li {
+  padding: 10px;
+}
+
+.docs ol li img {
+  display: block;
+  width: 80%;
+}
+.docs ol li {
+  font-size: 21px;
+}

@@ -1,0 +1,368 @@
+.index {
+  width: 40%;
+  margin-top: 3%;
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+  padding: 5px 0px;
+}
+
+.index .row .col-xl-3 .item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: filter 1s, transform 1s;
+  filter: blur(1px);
+  border-radius: 4px;
+  background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+.index .row .col-xl-3 .item:hover {
+  filter: blur(0px);
+  transform: scale(1.08);
+}
+
+.index .row .col-xl-3 .item img {
+  width: 70%;
+}
+
+.todo__input {
+  width: 80%;
+  padding: 0.1em 0.75em;
+  font-size: 18px;
+  outline: none;
+}
+
+.allType {
+  padding: 0px 8px;
+}
+
+.allType b {
+  font-size: 21px;
+  margin: 15px 5%;
+}
+
+.allType div {
+  padding: 0 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.allType div label {
+  font-size: 18px;
+  height: 42px;
+  margin: 0;
+  padding: 0;
+  line-height: 42px;
+}
+
+.allType div input {
+  font-size: 17px;
+  width: 60%;
+  padding: 4px 0;
+  padding-left: 5px;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid transparent;
+}
+
+.allType div select {
+  width: 60%;
+  font-size: 17px;
+  padding: 4px 10px 4px 5px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+
+.plans {
+  width: 70%;
+  margin-top: 5%;
+  border-radius: 10px;
+  padding: 15px;
+  background-image: linear-gradient(
+    to right,
+    #b8cbb8 0%,
+    #b8cbb8 0%,
+    #b465da 0%,
+    #cf6cc9 33%,
+    #ee609c 66%,
+    #ee609c 100%
+  );
+}
+.plans .row {
+  padding: 0 5%;
+}
+
+.plans .row .col-12 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 0;
+  border-radius: 5px;
+}
+
+.plans .row .col-12 .plan-item .loading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.back-light {
+  background: white;
+}
+
+.backdanger {
+  background: #dc3545;
+}
+
+.backsuccess {
+  background: #28a745;
+}
+
+.back-info {
+  background: #17a2b8;
+}
+
+.plans .row .col-12 .btnclick {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.plans .row .col-12 .btnclick select {
+  padding: 4px 2px;
+  margin: 0 5px;
+  outline: none;
+  border: 1px solid transparent;
+  border-radius: 3px;
+}
+
+.plans .row .col-12 .plan-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2px 3px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.plans .row .col-12 .plan-item .loading {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+.plans .row .col-12 .plan-item .loading .dot {
+  position: relative;
+  width: 1.2em;
+  height: 1.2em;
+  margin: 0.8em;
+  border-radius: 50%;
+}
+
+.plans .row .col-12 .plan-item .loading .dot::before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  border-radius: inherit;
+  animation: wave 2s ease-out infinite;
+}
+
+.plans .row .col-12 .plan-item .loading .dot::after {
+  animation-delay: 0.05s;
+}
+
+@keyframes wave {
+  50%,
+  75% {
+    transform: scale(2.5);
+  }
+
+  80%,
+  100% {
+    opacity: 0;
+  }
+}
+
+.plans .row .col-12 .plan-item .item,
+.btns {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.plans .row .col-12 .plan-item .btns button {
+  padding: 0;
+  background: transparent;
+  border: 1px solid transparent;
+}
+.plans .row .col-12 .plan-item .btns button img {
+  width: 30px;
+}
+.plans .row .col-12 .plan-item img {
+  width: 50px;
+}
+
+.plans .row .col-12 .plan-item b {
+  font-size: 18px;
+}
+
+.plans .row .col-12 .plan-item .time {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.plans .row .col-12 .plan-item .time small {
+  font-size: 14px;
+}
+
+.plans .row .col-12 .plan-item small {
+  margin: 0px 10px;
+  font-size: 16px;
+}
+
+.homepage {
+  width: 80%;
+}
+
+.homepage h1 {
+  color: white;
+  margin-bottom: 15px;
+}
+
+.homepage .row {
+  padding: 0;
+  margin: 0;
+}
+
+.homepage .row .col-xl-8 img {
+  width: 100%;
+  box-shadow: 0px 2px 2px #3a8dcd;
+}
+
+.homepage .row .col-xl-4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepage .row .col-xl-4 ul {
+  list-style-type: none;
+}
+
+.homepage .row .col-xl-4 ul li:before {
+  content: "";
+  display: inline-block;
+  height: 25px;
+  width: 25px;
+  background-size: 25px;
+  background-image: url("./../images/menu/check.png");
+  background-repeat: no-repeat;
+  margin-right: 10px;
+}
+
+.homepage .row .col-xl-4 ul li {
+  text-align: left;
+  font-size: 21px;
+  margin-top: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #3a8dcd;
+}
+
+.about {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about .bg-success {
+  border: 1px solid;
+  position: fixed;
+  z-index: 5;
+  box-shadow: 0px 2px 5px rgb(75, 70, 70);
+  top: 25px;
+  transition: filter 1s;
+  filter: blur(0px);
+}
+
+.about .bg-success:hover {
+  filter: blur(1px);
+}
+
+@media screen and (max-width: 1000px) {
+  .index {
+    width: 60%;
+  }
+  .index .row .col-xl-3 {
+    padding: 8px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .index .row .col-xl-3 .item {
+    width: 80%;
+  }
+  .index .row .col-xl-3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .index {
+    width: 80%;
+  }
+  .plans {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  .index {
+    width: 80%;
+  }
+  .plans {
+    width: 95%;
+  }
+  .plans .row .col-12 .plan-item {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .plans .row .col-12 .plan-item .item {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .plans .row .col-12 .plan-item .btns {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .plans .row .col-12:nth-child(1) {
+    flex-direction: column;
+  }
+}
